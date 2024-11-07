@@ -69,9 +69,12 @@ The autoencoder combines both the encoder and decoder models. It is trained by m
 The autoencoder is trained using the MNIST training dataset for 10 epochs with a batch size of 256. The loss is calculated using the MSE (Mean Squared Error) loss function.
 
 #### 6. Visualization:
+![image](https://github.com/user-attachments/assets/06f3e450-d956-484d-85d0-907bd3d65c56)
 
 #### Latent Space Visualization:
 A scatter plot of the latent space where each point is colored according to the digit label.
+![image](https://github.com/user-attachments/assets/a867f124-9e70-4c09-b114-a9869498a0ac)
+
 
 #### Data at Different Stages:
 For a few test samples, the original image, latent space encoding, and reconstructed image are displayed side by side.
